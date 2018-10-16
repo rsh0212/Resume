@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ryu's blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+      function go(tt){
+          var a = document.getElementById("iframe_page");
+          a.src = tt;
+      }
+    </script>
+  </head>
+  <body>
+    <header id="head">
+      <footer>
+        <h1>Welcome to My World!</h1>
+        <h4>by Seonghyun Ryu</h4>
+      </footer>
+    </header>
+    <div id="grid1">
+      <div id="grid2">
+        <nav class="right-border t-style">
+          <ul>
+            <li><a href="index.html">홈으로</a></li>
+            <br>
+            <li><a href="#"> <div onclick="go('산업기능요원_류성현_이력서.pdf')">이력서 </div></a></li>
+            <li><a href="자격증.html" target="page">자격증</a></li>
+            <li><a href="https://gokit.kumoh.ac.kr/~s20130436/embedded" target="_blank"> 임베디드</a></li>
+            <li><a href="#"> <div onclick="go('경영과학적 기법을 활용한 철도여행 패키지의 최적 의사결정 모델 선정(금오공과대학교 산업경영공학전공 김형도, 류성현).pdf')">학술대회 </div></a></li>
+            <li><a href="#"> <div onclick="go('의사결정론_조별.pdf')">의사결정론 </div></a></li>
+            <li><a href="#"> <div onclick="go('창의종합설계I_5조_(고기원, 김형도, 류성현) _1(제출).pdf')">종합설계 </div></a></li>
+            <li>독후감</li>
+          </ul>
+        </nav>
+        <section class="sec">
+          <iframe src="20180223_1422591.jpg" width="100%" height="100%" name="page" id="iframe_page"></iframe>
+        </section>
+      </div>
+    </div>
+
+
+  </body>
+</html>

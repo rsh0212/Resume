@@ -1,0 +1,59 @@
+@font-face {
+font-family:'think';
+src:url('think.ttf') format('truetype');
+}
+@font-face {
+font-family:'think2';
+src:url('think2.ttf') format('truetype');
+}
+@font-face {
+font-family:'think3';
+src:url('think3.ttf') format('truetype');
+}
+
+
+body{
+  background-image:url('background_photo.jpg');
+  background-size:cover;
+}
+#grid1{
+  display:grid;
+  grid-template-rows:1fr;
+  border-top-style:solid;
+}
+#grid2{
+  display:grid;
+  grid-template-columns:1fr 4fr;\
+}
+#grid2 a{
+  text-decoration:none;
+}
+#head h1{
+  font-family:'think';
+  font-size:70px;
+  color:orange;
+  text-align:center
+}
+#head h4{
+  font-style:italic;
+  text-align:right;
+}
+.right-border{
+  border-right:solid;
+  padding-left : 20px;
+  padding-top : 20px;
+  height:1000px;
+}
+.sec{
+  padding:40px;
+}
+nav{
+  font-family:'think2';
+  font-size:40px;
+  list-style:square;
+  line-height:60px;
+
+}
+nav a{
+  color:hsl(12,70%,50%);
+}
